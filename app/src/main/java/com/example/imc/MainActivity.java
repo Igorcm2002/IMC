@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btCalcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //images
                 ImageView img = findViewById(R.id.imageView);
                 img.setImageResource(R.drawable.perfil);
                 TextView editPeso = (TextView) findViewById(R.id.editPeso);
